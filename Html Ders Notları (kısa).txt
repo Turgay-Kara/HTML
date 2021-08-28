@@ -8,7 +8,7 @@
 
 <body> = sayfanın içeriği
 
-<br> = pythondaki \n
+<br> = satır başı
 <p> = paragraf açar.
 
 
