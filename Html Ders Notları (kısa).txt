@@ -1,0 +1,108 @@
+<html>	
+<head> sayfa hakkında tanımlamaları içerir.
+
+<title> = sayfanın adı
+
+<h> = sayfada içeriğindeki başlık
+<h1> = sayfa içeriğindeki başlığının büyüklüğü. En büyüğü <h1>, en küçüğü <h6>
+
+<body> = sayfanın içeriği
+
+<br> = pythondaki \n
+<p> = paragraf açar.
+
+
+kalın yazmak = <b> ya da <strong>
+italik yazmak = <i> ya da <em>
+altını çizmek = <u> ya da <ins>
+
+cümlenin altına çizgi çizmek
+<hr>
+
+
+içine yazılan içeriği yukarı almak = Lorem <sup>ipsum dolor</sup> sit amet.<br>
+			      = X <sup>2</sup>
+
+içine yazılan içeriği aşağı almak = Lorem <sub>ipsum dolor</sub> sit amet.<br>
+			     = X <sub>2</sub>
+
+<del> içine yazılan içeriğin üstünü çizmek </del>
+
+<small> ile yazıyı küçültebiliriz. </small>
+
+<mark> yazılan ifadeyi belirgin hale getirir. </mark>
+
+resim girerken:
+<img src="resim.jpg" width="300" heigh="300">
+		     GENİŞLİK    BÜYÜKLÜK PX
+
+
+<font color="red">Html Öğreniyorum.<br>Gün 1 :)</font><br><br>
+Yazılacak cümlenin	Yazılacak
+rengini ayarlıyoruz.	 cümle
+
+
+link atayacaksak:
+<a href="https://www.google.com">Google'a ulaşmak için bu yazıya tıklamanız yeterli olacaktır.
+	<img src="resim.jpg" width="300" height="300"><br><br>
+</a>
+anchor'un içinde olan her şeye tıklayarak linke ulaşabiliriz.
+
+
+<ol> ordered list = sıralı liste
+bunun içerisindeki listeler <li> ile yazılır.
+1, 2, 3... şeklinde sıralar.
+
+<ul> un ordered list = sıralı olmayan liste
+bunun içerisindeki listeler <li> ile yazılır.
+sayı vermeden sıralar.
+
+Eğer 2sini de istemiyorsak: type komutunu kullanılırız.
+<ol type="I">
+I, II, II... şeklinde sıralar.
+
+<ol type="a">
+a, b , c... şeklinde sıralar.
+
+
+un ordered listelerde ise şekli değiştirmek için.
+style içine:
+
+        ul{
+            list-style-type: square;
+        }
+
+yazarız. (square = kareye çevirir.)
+	 (circle = içi boş yuvarlağa çevirir.)
+	 (...)
+
+
+TABLOLAR:
+
+        <table style="border:1px solid black;">
+            <thead>
+                <tr>
+                    <td>Bu bir tablo örneğidir.</td>
+                </tr>
+            </thead>
+        </table>
+<thead> içine yazılanlar başlık olarak kabul edilir.
+
+
+tr td ile istediğimiz kadar tablo açabiliriz;
+(tr = tright, td = tdown)
+
+<tr>
+	<td>Bu şekilde olur ise yan yana dizer.</td>
+</tr>
+
+ Buradaki mantık:
+td olan yani alt alta olan elemanları, tr olarak yani yan yana olarak diz.
+
+
+table'ların bütününü tek bir kutu içine koymak istersek
+<style> içine:
+
+        table td{
+            border: 1px solid black;
+yazarız.
